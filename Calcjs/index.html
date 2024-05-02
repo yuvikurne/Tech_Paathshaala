@@ -4,9 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="index.js"></script>
+    <style>
+      body{
+        margin: 0;
+        position: relative;
+      }
+      .container{
+        border-radius: 20px;
+
+        width: 25%;
+        height: 30vh;
+        padding: 40px;
+        position: absolute;
+        top: 600%;
+        left: 40%;
+        background-color: lightblue;
+        
+
+        
+      }
+      .first-row{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        align-items: center;
+      }
+      .first-row input{
+        padding: 10px 88px;
+        border:none;
+      }
+      .second-row{
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        padding-bottom: 20px;
+
+      }
+      .third-row{
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        padding-bottom: 20px;
+
+    }
+      .fourth-row{
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        padding-bottom: 20px;
+
+    }
+      .fifth-row{
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        padding-bottom: 30px;
+
+
+    }
+      button{
+        padding: 10px 35px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
 </head>
 <body>
-    
+     <h1 id="title">Calc using HTML, CSS & Javascript !</h1>
+      <div class="container">
+        <div class="first-row">
+            <button id="">C</button>
+            <input type="text">
+        </div>
+        <div class="second-row">
+            <button id="">7</button>
+            <button id="">8</button>
+            <button id="">9</button>
+            <button id="">÷</button>
+        </div>
+        <div class="third-row">
+            <button id="">4</button>
+            <button id="">5</button>
+            <button id="">6</button>
+            <button id="">×</button>
+        </div>
+        <div class="fourth-row">
+            <button id="">1</button>
+            <button id="">2</button>
+            <button id="">3</button>
+            <button id="">-</button>
+        </div>
+        <div class="fifth-row">
+            <button id="">0</button>
+            <button id="">.</button>
+            <button id="">=</button>
+            <button id="">+</button>
+        </div>
+      </div>
+    <script src="index.js"></script>
+
 </body>
 </html>
