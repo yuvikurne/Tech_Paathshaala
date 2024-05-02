@@ -1,0 +1,156 @@
+*{
+    font-family: "Poppins", sans-serif;
+    
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 2rem 4rem;
+  position: fixed;
+  width: 95%;
+  top: 0;
+  background-color: #ffff;
+}
+
+nav img{
+    padding-left: 160px;
+}
+.nav-item{
+    display: flex;
+    gap: 3rem;
+
+}
+
+.nav-item a{
+ text-decoration: none;
+ color: black;
+}
+
+.container{
+    display: flex;
+    padding-top: 100px;
+    background-color:#F9F9FF;
+    justify-content: center;
+    align-items:center
+}
+.hero{
+    width: 100%;
+}
+.hero-left{
+    width: 50%;
+}
+
+.hero-left h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+.hero-left h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.hero-left p{
+    font-weight: 200;
+    padding-bottom: 5px;
+}
+
+button{
+    background-color:#7E97FE;
+    padding: 10px 20px;
+    border:  none;
+    color:white;
+    cursor: pointer;
+    font-size: 15px;
+}
+/* About-section  */
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.about-left{
+    width: 114%;
+    padding-left: 190px;
+
+}
+
+.about-right p{
+    width: 60%;
+    font-weight: 200;
+    padding-bottom: 5px;
+}
+
+.about-right h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-right h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+/* Offered Services */
+
+.offered{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.offered-services{
+    align-items:center;
+    width: 100%;
+}
+.off-mid{
+    width: 100%;
+    text-align: center;
+}
+.off-mid p{
+    font-weight: 200;
+}
+
+.upper-services{
+    width: 90%;
+    padding:0px 90px;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+    font-weight: 200;
+
+}
+
+.lower-services{
+    width: 90%;
+    padding:0px 90px;
+    gap: 2.2rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 200;
+
+}
+
+ion-icon{
+    font-size: 2.5rem;
+    opacity: 0.7;
+}
+.bg{
+    background-color:#69B4FD;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bg h1{
+    text-align:center;
+    color:white;
+}
+.bg p{
+    text-align:center;
+    color:white;
+    font-size: 1rem;
+}
+
