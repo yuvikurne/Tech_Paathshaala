@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social-Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="heading">
+                <h1>Social Share</h1>
+            </div>
+            <div class="social">
+                <h3 class="social-headline">Share this link via</h3>
+                <div class="social-icons">
+                    <ion-icon onclick="clickIcon('https://www.facebook.com/')"name="logo-facebook" id="logo-facebook"></ion-icon>
+                    <ion-icon onclick="clickIcon('https://www.twitter.com/')"name="logo-twitter" id="logo-twitter"></ion-icon>
+                    <ion-icon onclick="clickIcon('https://www.instagram.com/')"name="logo-instagram" id="logo-instagram"></ion-icon>
+                    <ion-icon onclick="clickIcon('https://www.whatsapp.com/')"name="logo-whatsapp" id="logo-whatsapp"></ion-icon>
+                    <ion-icon onclick="clickIcon('https://www.linkedin.com/')"name="logo-linkedin" id="logo-linkedin"></ion-icon>
+                </div>
+            </div>
+            <div class="copy">
+                <h2>Copy Link</h2>
+                <span>
+                    <ion-icon name="link-outline" id="link-outline"></ion-icon>
+                    <input type="text" id="display" placeholder="Sharing Links" id="" readonly > 
+                </span>
+            </div>
+            <div class="copy-button">
+                <button id="" onclick="copy()">Copy</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+
+</body>
+<script>
+
+</script>
+
+</html>

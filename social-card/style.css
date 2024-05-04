@@ -1,0 +1,119 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color:antiquewhite;
+}
+.container{
+    background-color:plum;
+    width: 560px;
+    height: 490px;
+    margin-top: 200px;
+    margin-left: 690px;
+    padding: 5px 5px;
+    
+}
+
+.card{
+    background-color:white;
+    border: none;
+    border-radius: 20px;
+    margin-top: -24px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 79px;
+}
+
+h1{
+    padding-top: 30px;
+    color: rgb(228, 89, 228);
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+ion-icon{
+    font-size: 40px;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.social-icons #logo-facebook{
+    color: #316FF6;
+    cursor:pointer;
+}
+.social-icons #logo-twitter{
+    color: #1da1f2;
+    cursor:pointer;
+}
+.social-icons #logo-instagram{
+    color: #e4405f;
+    cursor:pointer;
+}
+.social-icons #logo-whatsapp{
+    color: rgb(39, 196, 39);
+    cursor:pointer;
+}
+.social-icons #logo-linkedin{
+    color: blue;
+    cursor:pointer;
+}
+
+.copy{
+    padding-bottom: 25px;
+    position: relative;
+    margin-right: 50px;
+    
+}
+
+.copy span #link-outline {
+    margin-left: 30px;
+    margin-top: 0px;
+    border:none;
+    position:absolute;
+    font-size: 1.9rem;
+    left: 15px;
+    top: 53px;
+    opacity: 0.3;
+
+    
+
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    margin-left: 49px;
+    border-radius:10px;
+    text-align: left;
+    background-color: white;
+    outline: none;
+    border:2px solid black;
+    padding-left: 40px;
+
+}
+
+button{
+    width: 83%;
+    height: 40px;
+    background-color:purple;
+    border-radius:10px;
+    border: none;
+    color:white;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.copy-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    
+}
