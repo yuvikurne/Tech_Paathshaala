@@ -1,0 +1,39 @@
+body {
+    background-color: lightgreen;
+    width: 100%;
+    text-align: center;
+
+}
+
+.form-box {
+    width: 500px;
+    min-width: none;
+    max-width: 650px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 10px 10px rgb(111, 231, 111);
+    border-radius: 5%;
+
+}
+
+button{
+    padding: 10px 50px;
+    background-color:green;
+}
+
+.content-form{
+    text-align: start;
+    
+}
+
+input{
+    padding: 5px;
+
+}
+
+label{
+    font-weight: 500
+    ;
+}
+
