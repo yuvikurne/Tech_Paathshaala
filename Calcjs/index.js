@@ -1,17 +1,16 @@
-var output = "";
-var displayTag = document.getElementById("display");
-
-function appendValue(value){
-    output = output + value;
-    displayTag.innerHTML = "<span>" + output + "</span>"; 
-    console.log(output);
+function appendValue(value) {
+    document.getElementById('display').value += value;
 }
 
+function CalcClear() {
+    document.getElementById('display').value = '';
+}
 
-function Calc(){
-        console.log(eval(output));
-        displayTag.innerHTML = "<span>"+output+"</span>";
-        // displayTag.innerHTML = `<span>${eval(value1)}"</span>`;
-
-        output = "";
-}   
+function Calc() {
+    try {
+        const result = eval(document.getElementById('display').value);
+        document.getElementById('display').value = result;
+    } catch (error) {
+        document.getElementById('display').value = 'Error';
+    }
+}
